@@ -1,6 +1,6 @@
 # err-pagerduty
 
-*Setup*
+**Setup**
 
 Create a virtual environment for convenience: `$ virtualenv virt -p python3`
 
@@ -18,6 +18,32 @@ Now, clone this repo inside plugins directory: `cd plugins && git clone https://
 
 You are good to go...
 
-*Run*
+**Run**
 
 To run the bot, please come to the project root directory where config.py exists, run `$ errbot`. It should initialize the bot and connect to slack.
+
+** Features **
+
+* %pd list oncall <team_name>
+
+Ex: %pd list oncall devops
+
+Above command should list current primary and secondary oncall of team
+
+* %pd list <team_name>
+
+Ex: %pd list devops
+
+Should list all members of the team and list contact information
+
+* %pd list incidents <status(open/triggered/acknowledged)>
+
+Ex: %pd list incidents open
+
+Should list all open incidents with id, subject, date/time and assignee
+
+* %pd ack <incident_id>
+
+Ex: %pd list ABCDEF
+
+Should acknowledge incident 
