@@ -24,13 +24,13 @@ To run the bot, please come to the project root directory where config.py exists
 
 ** Features **
 
-* %pd list oncall <team_name>
+* %pd list oncall <team_name_1> <team_name_2>
 
 Ex: %pd list oncall devops
 
 Above command should list current primary and secondary oncall of team
 
-* %pd list <team_name>
+* %pd list <team_name_1> <team_name_2>
 
 Ex: %pd list devops
 
@@ -42,7 +42,7 @@ Ex: %pd list incidents open
 
 Should list all open incidents with id, subject, date/time and assignee
 
-* %pd ack <incident_id>
+* %pd ack <incident_id_1> <incident_id_2>
 
 Ex: %pd list ABCDEF
 
