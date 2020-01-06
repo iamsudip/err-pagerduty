@@ -38,7 +38,7 @@ slackclient==1.2.1
 traitlets==4.3.2
 typing==3.6.4
 urllib3==1.24.2
-waitress==1.1.0
+waitress==1.4.2
 wcwidth==0.1.7
 WebOb==1.8.1
 websocket-client==0.47.0
