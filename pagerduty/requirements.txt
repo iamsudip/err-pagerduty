@@ -27,7 +27,7 @@ prompt-toolkit==1.0.15
 ptyprocess==0.5.2
 pycparser==2.18
 pygerduty==0.37.0
-Pygments==2.2.0
+Pygments==2.7.4
 pygments-markdown-lexer==0.1.0.dev39
 pyOpenSSL==17.5.0
 requests==2.20.0
